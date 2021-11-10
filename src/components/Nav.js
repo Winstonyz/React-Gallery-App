@@ -9,9 +9,9 @@ const Nav = (props) => {
   return (
     <nav className="main-nav">
       <ul>
-        <li><NavLink to='architecture'>Architecture</NavLink></li>
-        <li><NavLink to='people'>People</NavLink></li>
-        <li><NavLink to='landscape'>Landscape</NavLink></li>
+        <li><NavLink to='/architecture'>Architecture</NavLink></li>
+        <li><NavLink to='/people'>People</NavLink></li>
+        <li><NavLink to='/landscape'>Landscape</NavLink></li>
       </ul>
     </nav>
   )
